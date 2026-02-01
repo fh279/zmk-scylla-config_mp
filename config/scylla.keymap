@@ -13,7 +13,7 @@
         DEF {
             bindings = <
 &kp ESCAPE        &kp N1  &kp N2  &kp N3            &kp N4        &kp N5            &kp N6         &kp N7          &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp TAB           &kp Q   &kp W   &kp F             &kp P         &kp B             &kp J          &kp L           &kp U      &kp Y    &kp SEMI   &kp MINUS
+&kp TAB           &kp Q   &kp W   &kp F             &kp P         &kp B             &kp J          &kp L           &kp U      &kp Y    &kp SEMI   &kp LEFT_BRACKET
 &kp LEFT_SHIFT    &kp A   &kp R   &kp S             &kp T         &kp G             &kp M          &kp N           &kp E      &kp I    &kp O      &kp SQT
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C             &kp D         &kp V             &kp K          &kp H           &kp COMMA  &kp DOT  &kp SLASH  &kp END
                                   &kp LEFT_COMMAND  &kp SPACE     &mo 1             &mo NAV        &mt LSHFT BSPC  &kp ENTER
@@ -23,12 +23,12 @@
 
         SYM {
             bindings = <
-&kp GRAVE  &kp EXCL   &kp F2     &kp F3    &kp F4    &kp F5       &kp F6    &kp F7    &kp F8     &kp F9  &kp F11    &kp F12
-&trans     &kp AT     &kp AMPS   &kp LBRC  &kp RBRC  &kp CARET    &none     &kp N7    &kp N8     &kp N9  &kp COLON  &trans
-&trans     &kp EQUAL  &kp DLLR   &kp LPAR  &kp RPAR  &kp TILDE    &kp N0    &kp N4    &kp N5     &kp N6  &kp PLUS   &kp STAR
-&trans     &trans     &kp PRCNT  &kp LBKT  &kp RBKT  &kp PIPE     &kp N0    &kp N1    &kp N2     &kp N3  &kp BSLH   &kp HOME
-                                 &trans    &trans    &trans       &kp LEFT  &kp UP    &kp RIGHT
-                                           &trans    &kp ESC      &kp ESC   &kp DOWN
+&kp TILDE  &kp EXCL  &kp F2          &kp F3            &kp F4           &kp F5     &kp C_PLAY  &kp K_PREVIOUS  &kp K_NEXT       &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp EQUAL
+&trans     &trans    &trans          &kp UP_ARROW      &trans           &trans     &none       &kp N7          &kp RIGHT_ARROW  &kp N9             &kp HOME         &kp RIGHT_BRACKET
+&trans     &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans     &kp N0      &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp END          &kp PAGE_UP
+&trans     &trans    &trans          &trans            &trans           &trans     &kp N0      &kp N1          &kp N2           &kp N3             &kp BSLH         &kp PAGE_DOWN
+                                     &kp LEFT_COMMAND  &trans           &trans     &kp LEFT    &kp UP          &kp RIGHT
+                                                       &kp LEFT_ALT     &kp ESC    &kp ESC     &kp DOWN
             >;
         };
 
