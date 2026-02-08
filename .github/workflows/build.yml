@@ -75,7 +75,7 @@ jobs:
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename artifacts
         run: |
-          mkdir build/artifacts-${{ github.run_id }}-${{ github.run_number }} 
+          mkdir build/artifacts 
           if [ -f build/zephyr/zmk.uf2 ]
           then
             cp build/zephyr/zmk.uf2 "build/artifacts/${{ steps.variables.outputs.artifact-name }}.uf2"
